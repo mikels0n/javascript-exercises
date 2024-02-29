@@ -3,6 +3,9 @@ const fibonacci = function(member) {
     if (member < 0) {
         return("OOPS");
     }
+    if (member = 0) {
+        return(0);
+    }
     for (let i = 1; i <= member; i++) {
         if (i === 1) {
             arr.push(1);
